@@ -1,0 +1,24 @@
+\begin{tabular}{lcccccccc}
+\toprule
+&\multicolumn{8}{c}{Probability of being war site}\\
+\cmidrule{2-9}
+&\multicolumn{4}{c}{Interstate wars} & \multicolumn{4}{c}{Other wars}\\
+\cmidrule(lr){2-5} \cmidrule(lr){6-9}
+                        & (21)       & (22)        & (29)       & (30)      & (21)       & (22)        & (29)       & (30) \\
+\midrule
+GDP growth (any lag)    & \ding{109} & \ding{109} & \ding{109} & \ding{109} & \ding{109} & \ding{108} & \ding{109} & \ding{109}\\
+Inflation (any lag)     & \ding{109} & \ding{109} & \ding{109} & \ding{109} & \ding{109} & \ding{108} & \ding{108} & \ding{108}\\
+Openness (any lag)      & ~          & ~          & \ding{108} & \ding{108} & ~          & ~          & \ding{109} & \ding{109}\\
+Military exp. (any lag) & ~          & ~          & \ding{108} & \ding{108} & ~          & ~          & \ding{109} & \ding{108}\\
+Borders (t-1)           & ~          & ~          & \ding{109} & \ding{109} & ~          & ~          & \ding{109} & \ding{109}\\
+Democracy (t-1)         & ~          & ~          & \ding{109} & \ding{108} & ~          & ~          & \ding{108} & \ding{108}\\
+Major power (t-1)       & ~          & ~          & \ding{109} & \ding{109} & ~          & ~          & \ding{108} & \ding{109}\\
+Peace years  (any term) & \ding{108} & \ding{108} & \ding{108} & \ding{109} & \ding{108} & \ding{108} & \ding{108} & \ding{109}\\
+\midrule
+Country fixed effects   &            & \checkmark &            & \checkmark &            & \checkmark &            & \checkmark\\
+Observations            & 7030       & 4386       & 4811       & 2309       & 6883       & 3825       & 4656       & 1937      \\
+War sites               & 77         & 77         & 45         & 45         & 120        & 120        & 63         & 63        \\
+Pseudo-$R^2$            & 0.03       & -0.03      & 0.06       & 0.14       & 0.15       & 0.12       & 0.12       & 0.01      \\
+Log-Likelihood          & -402.4     & -355.7     & -217.7     & -147.5     & -503.0     & -428.3     & -271.9     & -232.8    \\
+\bottomrule
+\end{tabular}

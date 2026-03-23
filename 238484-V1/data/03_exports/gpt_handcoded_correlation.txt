@@ -1,0 +1,4 @@
+Correlation between GPT and hand-coded site identification
+============================================================
+Correlation coefficient:    0.7331
+Number of observations: 3360

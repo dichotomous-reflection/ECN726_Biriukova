@@ -1,0 +1,8 @@
+title: GITHUB
+description: a module for building, searching, installing, and managing Stata packages from GitHub
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions

@@ -1,0 +1,5 @@
+WAR DISTRIBUTION SUMMARY STATISTICS
+====================================
+Relative frequency of being site: 0.0608
+Relative frequency of being adjacent: 0.1982
+====================================

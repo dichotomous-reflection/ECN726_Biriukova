@@ -1,0 +1,17 @@
+TEXT NUMBERS FOR PAPER
+==============================
+
+Average casualties/local pop in all sites: .02
+Average casualties/local pop in all sites (1946+): .01
+Average local pop/world pop in all sites: .03
+Average local pop/world pop in all sites (1946+): .02
+Average value of alternative destruction measure: 1.975
+Total number of war sites with data coverage in post-WWII period: 70
+Total number of belligerents in Gulf War (incl. USA): 11
+Total number of belligerents in Gulf War (excl. USA): 10
+Imports of Germany from France relative to German GDP: .019
+Imports of Canada from USA relative to Canadian GDP: .154
+Total number of war sites in causality sample: 83
+Average number of reasons per war: 2.974026
+
+==============================

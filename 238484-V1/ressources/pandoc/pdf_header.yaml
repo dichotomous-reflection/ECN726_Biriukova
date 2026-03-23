@@ -1,0 +1,45 @@
+---
+geometry: 
+  - margin=0.75in
+  - paperwidth=8.5in
+  - paperheight=11in
+fontsize: 10pt
+documentclass: article
+toc: false
+toc-depth: 2
+toc-title: ""
+colorlinks: true
+linkcolor: blue
+urlcolor: blue
+mainfont: "Helvetica Neue"
+monofont: "Courier New"
+monofontfeatures: "Scale=0.75"
+header-includes:
+  - \usepackage{fontspec}
+  - \newfontfamily\DejaSans{Arial Unicode MS}
+  - \usepackage{longtable}
+  - \usepackage{booktabs}
+  - \usepackage{array}
+  - \usepackage{multirow}
+  - \usepackage{float}
+  - \usepackage{pdflscape}
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyhead[L]{Replication Package}
+  - \fancyhead[R]{The Price of War}
+  - \usepackage{setspace}
+  - \setstretch{1.05}
+  - \usepackage{caption}
+  - \captionsetup{font=small}
+  - \setlength{\LTcapwidth}{\textwidth}
+  - \usepackage{adjustbox}
+  - \let\oldlongtable\longtable
+  - \let\endoldlongtable\endlongtable
+  - \renewenvironment{longtable}{\scriptsize\oldlongtable}{\endoldlongtable}
+  - \usepackage{titlesec}
+  - \newcommand{\sectionbreak}{\clearpage}
+  - \renewcommand{\contentsname}{Table of Contents}
+  - \usepackage{fvextra}
+  - \DefineVerbatimEnvironment{Highlighting}{Verbatim}{fontsize=\scriptsize,breaklines,commandchars=\\\{\}}
+---
+

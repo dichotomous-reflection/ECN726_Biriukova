@@ -1,0 +1,95 @@
+Copyright (c) 2025 Jonathan Federle, André Meier, Gernot J. Müller, Willi Mutschler, Moritz Schularick
+
+LICENSE
+=======
+
+1) Overview and Scope
+---------------------
+
+This repository is multi-licensed **by content type**:
+
+- **Modified BSD (3-Clause) License** applies to:
+  • All source code files (e.g., *.R, *.do, *.ado, *.py, *.m, *.sh, etc.) anywhere in this repository, unless a file header states otherwise
+- **CC BY 4.0** applies to:
+  • Any data clearly marked as "handcoded" (as identified in the README, file headers, or metadata)
+  • Documentation files
+- **Original third-party licenses** apply to:
+  • All other materials, especially datasets or artifacts originating from external sources
+
+> **No license rights are granted by this file for third-party materials.** Such materials remain governed by the original authors’ licenses and terms.
+
+2) Licenses by Content Type
+---------------------------
+
+a) Source Code — Modified BSD (3-Clause) License
+-------------------------------------------------
+All source code files under `src/` are licensed under the **Modified BSD (3-Clause) License**.
+
+- SPDX identifier: `BSD-3-Clause`
+- Full text: See `LICENSES/BSD-3-Clause.txt` or https://opensource.org/licenses/BSD-3-Clause
+
+**You may** use, redistribute, and modify the code, with or without modification, in source and binary forms.
+**You must** retain copyright notices, this list of conditions, and the disclaimer in redistributions.
+
+b) Data and Documentation — CC BY 4.0
+--------------------------------------
+All "handcoded" data and documentation files are licensed under the **Creative Commons Attribution 4.0 International** license.
+
+- SPDX identifier: `CC-BY-4.0`
+- Canonical text: See `LICENSES/CC-BY-4.0.txt` or https://creativecommons.org/licenses/by/4.0/
+
+**You may** share and adapt for any purpose, even commercially.  
+**You must** give appropriate credit, provide a link to the license, and indicate if changes were made.
+
+
+3) Third-Party Materials — Original Authors’ Licenses
+-----------------------------------------------------
+
+Any repository content **not** covered by Section 2 is considered **third-party material** and **retains the license(s) imposed by its original author(s)**. These may include, without limitation, licenses such as CC BY, CC BY-SA, CC BY-NC, ODbL, MIT, proprietary terms, database rights, or publisher-specific terms.
+
+- **No relicensing**: Nothing in this LICENSE alters or supersedes third-party terms.
+- **Preservation of notices**: You must retain and comply with all copyright, attribution, database-rights, and license notices associated with third-party materials.
+- **Conflicting terms**: If you create combined or derivative works, the most restrictive applicable terms may govern the combination.
+
+
+4) Your Responsibilities (Due Diligence & Permissions)
+------------------------------------------------------
+
+You are solely responsible for ensuring your use of any materials in this repository complies with the applicable licenses.
+
+- **Verify licenses**: Before downloading, copying, distributing, or using any materials that are not explicitly covered by the licenses in Section 2, **you must check and confirm the license of the original data owner(s)**.
+- **Obtain permissions**: If a third-party license **requires permission** (e.g., non-commercial restrictions, prohibited redistribution, embargoed content, or unclear rights), **you must obtain such permission directly from the original rights holder(s)** before use.
+- **Comply with attribution**: Provide all required attributions, links, and notices specified by the applicable license(s).
+- **Assume responsibility**: You bear all risk and responsibility for your use, including any needed rights clearances, privacy/data-protection compliance, and adherence to terms of service for source sites or datasets.
+
+5) Trademarks and Branding
+--------------------------
+
+This LICENSE does **not** grant any rights to use names, logos, or trademarks of contributors or third-party licensors.
+
+6) Warranty Disclaimer
+----------------------
+
+**ALL MATERIALS ARE PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND**, whether express, implied, statutory, or otherwise, including without limitation warranties of title, non-infringement, merchantability, fitness for a particular purpose, accuracy, or completeness.
+
+7) Limitation of Liability
+--------------------------
+
+To the maximum extent permitted by applicable law, in no event shall the contributors, maintainers, or licensors be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the materials or the use or other dealings in the materials.
+
+8) Repository Conventions (for clarity)
+---------------------------------------
+
+- `src/` — Modified BSD (3-Clause) License for all code files
+- `data/handcoded/` or files explicitly marked "handcoded" — CC BY 4.0
+- Documentation files — CC BY 4.0
+- `data/` (everything else) — **original third-party licenses apply, your responsibility to verify license with original data owner(s)**
+
+
+Appendix A — License Texts
+--------------------------
+
+For the full legal texts of the licenses used for original content in this repository:
+
+- **Modified BSD (3-Clause) License**: See `LICENSES/BSD-3-Clause.txt`
+- **CC BY 4.0**: See `LICENSES/CC-BY-4.0.txt`
