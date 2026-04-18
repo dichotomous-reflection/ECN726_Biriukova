@@ -1612,10 +1612,9 @@ inter_target_avg_countryfe <- fixest::feglm(
   family = binomial(link = "logit"),
   vcov = ~ iso3,
   fml = target_onset ~
-    gdp_growth_lag1 + gdp_growth_lag2 + gdp_growth_lag3 + gdp_growth_lag4 +
-    openness_lag1 + openness_lag2 + openness_lag3 + openness_lag4 +
-    inflation_lag1 + inflation_lag2 + inflation_lag3 + inflation_lag4 + 
-    milex_gdp_lag1 + milex_gdp_lag2 + milex_gdp_lag3 + milex_gdp_lag4 +
+    gdp_growth_avg+
+    openness_avg +inflation_avg + 
+    milex_gdp_avg + 
     borders_lag1 + cowmaj_lag1 + v2x_libdem_lag1 +
     peace_years + peace_years_sq + peace_years_cub
 )
